@@ -18,10 +18,14 @@ function Home() {
       alignItems='center'
       justifyContent='center'
     >
-      <VStack spacing={6} alignItems='center' 
-      width='100%' p={8} 
-      bg='rgba(255, 255, 255, 0.8)'
-       borderRadius='md'>
+      <VStack
+        spacing={6}
+        alignItems='center'
+        width='100%'
+        p={8}
+        bg='rgba(255, 255, 255, 0.8)'
+        borderRadius='md'
+      >
         <Heading as='h1' size='2xl' color='purple.600'>
           Welcome to LearnX
         </Heading>
